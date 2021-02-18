@@ -1,0 +1,16 @@
+.pokemonTile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: var(--background-color-light);
+}
+.pokemonName {
+  text-transform: capitalize;
+  font-size: 19px;
+}
+.pokemonImage {
+  height: 100px;
+}
