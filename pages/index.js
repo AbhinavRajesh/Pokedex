@@ -4,6 +4,9 @@ import PokemonList from "../components/PokemonList";
 import styles from "../styles/Home.module.css";
 
 export default function Home({ result, pokemonData }) {
+  if (pokemonData === undefined) {
+    return <Loading />;
+  }
   return (
     <Layout>
       <div className={styles.counts}>

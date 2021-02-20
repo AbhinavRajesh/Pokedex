@@ -1,0 +1,127 @@
+.pokemonCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 7px;
+  background-color: var(--background-color-light);
+}
+.pokemonCardLeft {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pokemonCardLeft .pokemonName {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0;
+}
+.pokemonImage {
+  height: 400px;
+}
+.pokemonCardRight {
+  flex: 3;
+}
+.pokemonCardRight h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+.pokemonCardRight p {
+  margin: 5px 0 20px 0;
+}
+
+.inline {
+  display: flex;
+}
+.pokemonFacts {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  margin: 3px;
+  padding: 10px 30px;
+  background-color: var(--background-color);
+}
+.pokemonWeight,
+.pokemonHeight,
+.pokemonLegendary,
+.pokemonMythical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  min-width: 220px;
+  margin: 3px;
+  padding: 10px 30px;
+  background-color: var(--background-color);
+}
+
+/* Colors */
+.pokemonTypes {
+  display: flex;
+}
+.pokemonTypes div {
+  padding: 5px 20px;
+  text-transform: capitalize;
+  margin: 0 3px;
+  color: white;
+  border-radius: 4px;
+}
+.normal {
+  background-color: #a8a77a;
+}
+.fire {
+  background-color: #ee8130;
+}
+.water {
+  background-color: #6390f0;
+}
+.electric {
+  background-color: #f7d02c;
+}
+.grass {
+  background-color: #7ac74c;
+}
+.ice {
+  background-color: #96d9d6;
+}
+.fighting {
+  background-color: #c22e28;
+}
+.poison {
+  background-color: #a33ea1;
+}
+.ground {
+  background-color: #e2bf65;
+}
+.flying {
+  background-color: #a98ff3;
+}
+.psychic {
+  background-color: #f95587;
+}
+.bug {
+  background-color: #a6b91a;
+}
+.rock {
+  background-color: #b6a136;
+}
+.ghost {
+  background-color: #735797;
+}
+.dragon {
+  background-color: #6f35fc;
+}
+.dark {
+  background-color: #705746;
+}
+.steel {
+  background-color: #b7b7ce;
+}
+.fairy {
+  background-color: #d685ad;
+}
